@@ -1,5 +1,16 @@
 def reverse_each_word(sentence)
-  sentence = sentence.split(“ ”)
-  sentence.split
-  reversed = []
+  new_sentence = sentence.split
+  new_sentence.map do |word|
+    "reversed = []"
 end
+
+
+
+def reverse_each_word(sentence)
+  new_sentence= sentence.split
+  new_sentence.map do |word|
+    "#{word}".reverse
+    
+  end
+  
+  end
