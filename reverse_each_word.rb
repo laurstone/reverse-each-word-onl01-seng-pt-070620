@@ -1,6 +1,8 @@
 def reverse_each_word(sentence)
   new_sentence = sentence.split
-  new_sentence.map do |word|
+  reverse_array = new_sentence.map do |word|
+  word.reverse
+end
     "#{word}".reverse
  end
 end
